@@ -11,6 +11,8 @@ Complementary filtering consists of using low-pass and high-pass filters in a co
 
 ## Results
 
+![tracking_gif]()
+
 ## Details
 Inside the Arduino directory you can find the code used to implement complementary filter directly on hardware.
 Roll, pitch and yaw are calculated and sent via serial communication to PC.
