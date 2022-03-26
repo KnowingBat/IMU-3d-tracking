@@ -7,6 +7,8 @@ The final result is an angular orientation output, which we can use to rotate a 
 ## How it works?
 ![Complementary filter scheme](comp_filter_scheme.jpg)
 
+## Results
+
 ## Details
 Inside the Arduino directory you can find the code used to implement complementary filter directly on hardware.
 Roll, pitch and yaw are calculated and sent via serial communication to PC.
