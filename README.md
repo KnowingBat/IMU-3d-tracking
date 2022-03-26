@@ -11,7 +11,7 @@ Complementary filtering consists of using low-pass and high-pass filters in a co
 
 ## Results
 
-![tracking_gif]()
+![tracking_gif](tracking.gif)
 
 ## Details
 Inside the Arduino directory you can find the code used to implement complementary filter directly on hardware.
