@@ -11,7 +11,7 @@ The final result is an angular orientation output, which we can use to rotate a 
 ## How it works?
 Complementary filtering consists of using low-pass and high-pass filters in a complementary way. The basic idea is to combine the long-term stability of the accelerometer and the short-term stability of the gyroscope: the accelerometer signal is filtered with a low-pass filter to limit the effects of vibrations; conversely, the gyroscope signal is filtered with a high-pass filter to reduce the effect of long-term drift.
 
-![Complementary filter scheme](comp_filter.jpg)
+![Complementary filter scheme](comp_filter.jpg | width = 200)
 
 ## Results
 Here you can see the final result obtained. The box is really stable and responsive.
