@@ -1,4 +1,4 @@
-## IMU 3D Tracking: complementary filter approach
+## IMU 3D Tracking: Complementary Filter Approach
 
 Goal of this repo is to implement IMU sensor fusion on real hardware (Arduino Uno R3) using the complementary filter.
 The complementary filter combines data from both gyroscope and accelerometer applying first order HPF and LPF, respectively. 
