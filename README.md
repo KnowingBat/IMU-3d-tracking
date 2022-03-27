@@ -18,7 +18,7 @@ Complementary filtering consists of using low-pass and high-pass filters in a co
 ### Insights
 I made a small pdf file including a little bit of theory behind this project.
 - [[ENG] Orientation Estimation using IMU]()
-- [[ITA] Stima dell'orientamento utilizzando sistemi ineriziali IMU](Stima dell'orientamento tramite sensori IMU.pdf)
+- ![[ITA] Stima dell'orientamento utilizzando sistemi ineriziali IMU](https://drive.google.com/file/d/1TxPxqUvUks8AcFrKSN6zvq6aYpSgR9Of/view?usp=sharing)
 
 ## Results
 Here you can see the final result obtained. The box is really stable and responsive.
