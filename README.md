@@ -23,10 +23,19 @@ I made a small pdf file including a little bit of theory behind this project.
 ## How to build
 - Download a p5.serialapp release on this [website](https://github.com/p5-serial/p5.serialcontrol/releases)
 - Connect Arduino with the MPU-6050 as you can see below
+<p align="center">
+  <img src="arduino_connection.jpg" alt="drawing"/>
+</p>
+
 - Connect Arduino to your PC via USB
 - Upload the Arduino code with ArduinoIDE or gcc-avrdude.exe. Once it is uploaded, close Arduino IDE and make sure the COM connection is closed
-- Open p5.serialapp and click the "connect" button to establish a connection
-- Run the JavaScript code on a local server
+- Open p5.serialapp and click the "open" button to establish a connection
+
+<p align="center">
+  <img src="p5_com.jpg" alt="drawing"/>
+</p>
+
+- Run the JavaScript code on a local server. If this doesn't work, make sure that in main.js file your 'COM' port is selected.
 
 ## Results
 Here you can see the final result obtained. The box is really stable and responsive.
