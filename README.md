@@ -17,7 +17,11 @@ Complementary filtering consists of using low-pass and high-pass filters in a co
 
 ## Results
 Here you can see the final result obtained. The box is really stable and responsive.
-![tracking_gif](tracking.gif)
+Since magnetometer is missing from the MPU-6050 module, it's impossible to retrieve a correct Z-axis rotation due to the lack of a fixed frame.
+However, the yaw angle is calculated by the gyroscope anyway in order to show this issue. In the JavaScript file it is possible to enable rotation on the Z axis by uncommenting the corresponding line
+<p align="center">
+  <img src="tracking.gif" alt="tracking_results">
+ </p>
 
 ## Details
 Inside the Arduino directory you can find the code used to implement complementary filter directly on hardware.
