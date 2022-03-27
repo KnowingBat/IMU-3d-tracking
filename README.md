@@ -18,7 +18,15 @@ Complementary filtering consists of using low-pass and high-pass filters in a co
 ### Insights
 I made a small pdf file including a little bit of theory behind this project.
 - [[ENG] Orientation Estimation using IMU]()
-- [[ITA] Stima dell'orientamento utilizzando sistemi ineriziali IMU](https://drive.google.com/file/d/1TxPxqUvUks8AcFrKSN6zvq6aYpSgR9Of/view?usp=sharing)
+- [[ITA] Stima dell'orientamento utilizzando sistemi ineriziali IMU](https://drive.google.com/file/d/1csJqiowgejPyHrsj8xfkW0pQ3UgTv2dk/view?usp=sharing)
+
+## How to build
+- Download a p5.serialapp release on this [website](https://github.com/p5-serial/p5.serialcontrol/releases)
+- Connect Arduino with the MPU-6050 as you can see below
+- Connect Arduino to your PC via USB
+- Upload the Arduino code with ArduinoIDE or gcc-avrdude.exe. Once it is uploaded, close Arduino IDE and make sure the COM connection is closed
+- Open p5.serialapp and click the "connect" button to establish a connection
+- Run the JavaScript code on a local server
 
 ## Results
 Here you can see the final result obtained. The box is really stable and responsive.
