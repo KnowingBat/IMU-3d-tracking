@@ -15,6 +15,11 @@ Complementary filtering consists of using low-pass and high-pass filters in a co
 <img src="comp_filter.jpg" alt="drawing" width="500" height="300"/>
 </p>
 
+### Insights
+I made a small pdf file including a little bit of theory behind this project.
+- [[ENG] Orientation Estimation using IMU]()
+- [[ITA] Stima dell'orientamento utilizzando sistemi ineriziali IMU]()
+
 ## Results
 Here you can see the final result obtained. The box is really stable and responsive.
 Since magnetometer is missing from the MPU-6050 module, it's impossible to retrieve a correct Z-axis rotation due to the lack of a fixed frame.
