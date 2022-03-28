@@ -32,7 +32,7 @@ I made a small pdf file including a little bit of theory behind this project.
 - Open p5.serialapp and click the "open" button to establish a connection
 
 <p align="center">
-  <img src="p5_com.jpg" alt="drawing"/>
+  <img src="p5_com_port.jpg" alt="drawing"/>
 </p>
 
 - Run the JavaScript code on a local server. If this doesn't work, make sure that in main.js file your 'COM' port is selected.
