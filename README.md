@@ -53,6 +53,7 @@ In order to build this project you need the [p5.serialApp](https://github.com/p5
 
 ## References
 - [MIT Lecture on Orientation Estimation](https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-333-aircraft-stability-and-control-fall-2004/lecture-notes/lecture_15.pdf)
+- [Using Inertial Sensors for Position and Orientation Estimation](https://arxiv.org/pdf/1704.06053.pdf)
 
 
 
